@@ -33,6 +33,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Field Friend](https://github.com/zauberzeug/field_friend) - A Development Platform for Autonomous Weeding. 
 - [Romi project](https://media.romi-project.eu/documents/index.html) - Europe-funded research project 
 - [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
+- [Sowbot](https://github.com/Agroecology-Lab/feldfreund_devkit_ros) - Line following Sowing & weeding robot with some WebUI tools.
 - [Weedinator](https://hackaday.io/project/53896-weedinator-2019) - Line following weeding robot
 - [Zauberzeug/](https://github.com/zauberzeug/) - Feldfreund weeding robot, complete open software stack published
 
