@@ -13,7 +13,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 | [Climate, Environment and Weather](#climate-environment-and-weather) | |
 | [Crop Modelling, Phenotyping and Pathology](#crop-modelling-phenotyping-and-pathology) | |
 | [Datasets](#datasets) | |
-| [Data Standardisation, Interoperability and APIs](#data-standardisation-interoperability-and-apis) | |
+| [Data Standardisation, Interoperability and APIs](#data-standardisation-interoperability-and-apis) | [AgStack](#agstack) |
 | [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping) | |
 | [Geospatial and GIS](#geospatial-and-gis) | [GIS Resources](#gis-resources) · [GIS Platforms](#gis-platforms) · [Shapefiles](#shapefiles) |
 | [IoT, Hardware](#iot-hardware) | |
@@ -85,7 +85,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 | Project Name | Description |
 | :--- | :--- |
 | [AgGateway ADAPT Toolkit](https://adaptframework.org) | Open source tools to simplify communication between growers, their machines and their partners. |
-| [Agstack](https://github.com/agstack) | Open source digital infrastructure for the agriculture ecosystem. |
+| [Agstack](https://github.com/agstack) | Open source digital infrastructure for the agriculture ecosystem. See [AgStack](#agstack) below for its projects. |
 | [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) ![GitHub Repo stars](https://img.shields.io/github/stars/aWhereAPI/API-Code-Samples?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/aWhereAPI/API-Code-Samples) | aWhere API platform code samples. |
 | [Botanica](https://github.com/Michael-A-Kuykendall/botanica) ![GitHub Repo stars](https://img.shields.io/github/stars/Michael-A-Kuykendall/botanica?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/Michael-A-Kuykendall/botanica) | Rust crate for botanical data management with taxonomic hierarchy, cultivation tracking and Darwin Core compliance. |
 | [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) ![GitHub Repo stars](https://img.shields.io/github/stars/IterisClearAg/ClearAg-API-Examples?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/IterisClearAg/ClearAg-API-Examples) | Code examples using the ClearAg APIs. |
@@ -98,6 +98,73 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 | [OpenTeam](https://openteam.community/) | Open technology ecosystem for agricultural management. |
 | [SampleData](https://github.com/JohnDeere/SampleData) ![GitHub Repo stars](https://img.shields.io/github/stars/JohnDeere/SampleData?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/JohnDeere/SampleData) | Sample datacards, shapefiles and other files for testing. |
 | [SencropAPI-JavaScript-Client](https://github.com/sencrop/sencrop-js-api-client) ![GitHub Repo stars](https://img.shields.io/github/stars/sencrop/sencrop-js-api-client?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/sencrop/sencrop-js-api-client) | JavaScript client to read and manage Sencrop weather stations. |
+
+### AgStack
+
+> Selected repositories from the [AgStack Foundation](https://github.com/agstack), a Linux Foundation project. Governance, meeting, website, artwork and stale messaging repos are left out.
+
+#### Asset Registry
+
+| Project Name | Description |
+| :--- | :--- |
+| [asset-registry](https://github.com/agstack/asset-registry) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/asset-registry?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/asset-registry) | Registers a geospatial asset (typically a polygon) and returns a unique GeoID; Flask, AR 1.0. |
+| [ar2](https://github.com/agstack/ar2) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/ar2?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/ar2) | Asset Registry 2: hub and spoke model. |
+| [ar2-hub](https://github.com/agstack/ar2-hub) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/ar2-hub?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/ar2-hub) | Hub component for Asset Registry 2. |
+| [user-registry](https://github.com/agstack/user-registry) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/user-registry?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/user-registry) | User accounts, JWT issuance and API keys for AR 1.0. |
+| [asset-registry-fe](https://github.com/agstack/asset-registry-fe) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/asset-registry-fe?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/asset-registry-fe) | Web frontend for the Asset Registry. |
+| [autogeobound](https://github.com/agstack/autogeobound) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/autogeobound?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/autogeobound) | Automatic field boundary detection from satellite imagery. |
+| [pancake](https://github.com/agstack/pancake) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/pancake?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/pancake) | AI-native geospatial datastore and DPI services: field ownership grants as SD-JWT credentials, signed audit ledger, scheduled vendor data ingestion. |
+| [jupyter-notebooks](https://github.com/agstack/jupyter-notebooks) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/jupyter-notebooks?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/jupyter-notebooks) | Demo notebooks showing API usage. |
+
+#### INATrace
+
+| Project Name | Description |
+| :--- | :--- |
+| [inatrace](https://github.com/agstack/inatrace) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/inatrace?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/inatrace) | Meta repository linking the INATrace backend, frontend, mobile and blockchain components; blockchain-based track and trace for supply chains. |
+| [inatrace-backend](https://github.com/agstack/inatrace-backend) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/inatrace-backend?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/inatrace-backend) | Java/Spring backend. |
+| [inatrace-frontend](https://github.com/agstack/inatrace-frontend) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/inatrace-frontend?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/inatrace-frontend) | Angular frontend. |
+| [inatrace-mobile](https://github.com/agstack/inatrace-mobile) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/inatrace-mobile?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/inatrace-mobile) | Mobile app for farmer data collection. |
+| [inatrace-coffee-network](https://github.com/agstack/inatrace-coffee-network) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/inatrace-coffee-network?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/inatrace-coffee-network) | Blockchain smart contracts for the coffee supply chain. |
+
+#### OpenAgri
+
+| Project Name | Description |
+| :--- | :--- |
+| [OpenAgri-Bootstrap-Deployment](https://github.com/agstack/OpenAgri-Bootstrap-Deployment) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-Bootstrap-Deployment?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-Bootstrap-Deployment) | Modular configuration and deployment of all OpenAgri services. |
+| [OpenAgri-GateKeeper](https://github.com/agstack/OpenAgri-GateKeeper) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-GateKeeper?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-GateKeeper) | JWT-based authentication and access proxy. |
+| [OpenAgri-FarmCalendar](https://github.com/agstack/OpenAgri-FarmCalendar) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-FarmCalendar?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-FarmCalendar) | Digital farm calendar for operations, observations, parcels and assets. |
+| [OpenAgri-WeatherService](https://github.com/agstack/OpenAgri-WeatherService) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-WeatherService?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-WeatherService) | Weather forecasts and critical agricultural indicators. |
+| [OpenAgri-IrrigationManagement](https://github.com/agstack/OpenAgri-IrrigationManagement) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-IrrigationManagement?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-IrrigationManagement) | Evapotranspiration calculations and soil moisture analysis. |
+| [OpenAgri-PestAndDiseaseManagement](https://github.com/agstack/OpenAgri-PestAndDiseaseManagement) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-PestAndDiseaseManagement?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-PestAndDiseaseManagement) | Pest and disease monitoring and management. |
+| [OpenAgri-ReportingService](https://github.com/agstack/OpenAgri-ReportingService) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-ReportingService?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-ReportingService) | PDF report generation for agricultural data visualisation. |
+| [OpenAgri-UserDashboard](https://github.com/agstack/OpenAgri-UserDashboard) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-UserDashboard?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-UserDashboard) | Web UI exposing all OpenAgri services. |
+| [OpenAgri-OCSM](https://github.com/agstack/OpenAgri-OCSM) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/OpenAgri-OCSM?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/OpenAgri-OCSM) | OpenAgri Common Semantic Model. |
+
+#### Farm and Field Apps
+
+| Project Name | Description |
+| :--- | :--- |
+| [AgriOS](https://github.com/agstack/AgriOS) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/AgriOS?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/AgriOS) | Odoo 18 farm management addons: farmers, plots, trade and training (AGPL-3). |
+| [TerraTrac-field-app](https://github.com/agstack/TerraTrac-field-app) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/TerraTrac-field-app?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/TerraTrac-field-app) | Offline-capable mobile app for recording plot points and polygons, with CSV/GeoJSON export; for EUDR compliance. |
+| [TerraTrac-validator-portal](https://github.com/agstack/TerraTrac-validator-portal) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/TerraTrac-validator-portal?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/TerraTrac-validator-portal) | Uploads plot data, runs deforestation risk assessment via the WHisp API and generates reports. |
+| [tracefoodchain](https://github.com/agstack/tracefoodchain) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/tracefoodchain?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/tracefoodchain) | Flutter app and web app for tracing goods along food production chains. |
+| [ag-rec](https://github.com/agstack/ag-rec) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/ag-rec?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/ag-rec) | Agriculture recommendations from Cooperative Extension Services. |
+
+#### Weather, Climate and Pests
+
+| Project Name | Description |
+| :--- | :--- |
+| [weather-server](https://github.com/agstack/weather-server) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/weather-server?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/weather-server) | Julia data ingest, pre-processing and serving pipeline for weather data. |
+| [weather-forecast](https://github.com/agstack/weather-forecast) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/weather-forecast?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/weather-forecast) | Global weather forecast from NOAA NCEP/NOMADS data. |
+| [opensource-pestmodels](https://github.com/agstack/opensource-pestmodels) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/opensource-pestmodels?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/opensource-pestmodels) | Hierarchical pest and disease modelling framework (13 models, 19 crops, 54 threats) with Python wheel, FastAPI and MCP server. |
+| [field-carbon-model](https://github.com/agstack/field-carbon-model) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/field-carbon-model?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/field-carbon-model) | Field-specific carbon model using SMAP L4C. |
+
+#### AI and Knowledge Graphs
+
+| Project Name | Description |
+| :--- | :--- |
+| [palefire](https://github.com/agstack/palefire) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/palefire?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/palefire) | LLM and knowledge graph integration framework. |
+| [semantic-croissant](https://github.com/agstack/semantic-croissant) ![GitHub Repo stars](https://img.shields.io/github/stars/agstack/semantic-croissant?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/agstack/semantic-croissant) | Semantic Croissant infrastructure, forked from codata/semantic-croissant. |
 
 ## Farm Management Systems and Record Keeping
 
