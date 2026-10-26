@@ -35,10 +35,9 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 | [FarmBot-ROS](https://github.com/farmbot-ros/) | Open source farming robot. |
 | [Field Friend](https://github.com/zauberzeug/field_friend) ![GitHub Repo stars](https://img.shields.io/github/stars/zauberzeug/field_friend?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/zauberzeug/field_friend) | Development platform for autonomous weeding. |
 | [Fields2Cover](https://github.com/Fields2Cover/Fields2Cover) ![GitHub Repo stars](https://img.shields.io/github/stars/Fields2Cover/Fields2Cover?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/Fields2Cover/Fields2Cover) | Robust and efficient coverage paths for autonomous agricultural vehicles. |
-| [Romi project](https://media.romi-project.eu/documents/index.html) | Europe-funded research project. |
+| [Romi project](https://media.romi-project.eu/documents/index.html) ([GitHub organisation](https://github.com/romi)) | Europe-funded research project. |
 | [ROS Agriculture](http://rosagriculture.org/) | Open source community using the Robot Operating System to give farmers robotics tools. |
 | [Sowbot](https://github.com/Agroecology-Lab/feldfreund_devkit_ros) ![GitHub Repo stars](https://img.shields.io/github/stars/Agroecology-Lab/feldfreund_devkit_ros?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/Agroecology-Lab/feldfreund_devkit_ros) | Line-following sowing and weeding robot with some web UI tools. |
-| [Weedinator](https://hackaday.io/project/53896-weedinator-2019) | Line-following weeding robot. |
 | [Zauberzeug](https://github.com/zauberzeug/) | Feldfreund weeding robot, complete open software stack published. |
 
 ## Calculators
@@ -64,32 +63,32 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 | Project Name | Description |
 | :--- | :--- |
-| [Open Plant Pathology](https://www.openplantpathology.org/) | Community for open data and computational tools in epidemiology and pathogen population biology and ecology. |
+| [Open Plant Pathology](https://www.openplantpathology.org/) ([GitHub organisation](https://github.com/openplantpathology)) | Community for open data and computational tools in epidemiology and pathogen population biology and ecology. |
 
 ## Datasets
 
 | Project Name | Description |
 | :--- | :--- |
 | [Agriculture Datasets Collection](https://lacunafund.org/datasets/agriculture/) | Curated machine learning datasets addressing food security in developing regions. |
-| [CEAOD](https://ceaod.github.io/) | Controlled Environment Agriculture Open Data: standardised greenhouse and indoor farming datasets with analysis tools. |
+| [CEAOD](https://ceaod.github.io/) ([GitHub repository](https://github.com/CEAOD/Data)) ![GitHub Repo stars](https://img.shields.io/github/stars/CEAOD/Data?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/CEAOD/Data) | Controlled Environment Agriculture Open Data: standardised greenhouse and indoor farming datasets with analysis tools. |
 | [CropHarvest](https://github.com/nasaharvest/cropharvest) ![GitHub Repo stars](https://img.shields.io/github/stars/nasaharvest/cropharvest?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/nasaharvest/cropharvest) | Remote sensing dataset for global crop type mapping, 95,186 labelled datapoints from satellite imagery. |
 | [CWFID](https://github.com/cwfid/dataset) ![GitHub Repo stars](https://img.shields.io/github/stars/cwfid/dataset?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/cwfid/dataset) | Field images, vegetation segmentation masks and crop/weed plant type annotations. |
 | [FAO/NASA Harvest Crop Type Dataset](https://data.harvestportal.org/dataset/fao-bha-nasa-harvest-public-crop-type-datasets) | Ground truth crop type observations with geolocated field data for training and validating cropland classification models. |
-| [Growstuff](https://www.growstuff.org/crops) | Record keeping and crop database with a good API. |
+| [Growstuff](https://www.growstuff.org/crops) ([GitHub repository](https://github.com/Growstuff/growstuff)) ![GitHub Repo stars](https://img.shields.io/github/stars/Growstuff/growstuff?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/Growstuff/growstuff) | Record keeping and crop database with a good API. |
 | [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease) | Leaf images of healthy and diseased plants, 38 disease classes across 14 crops. |
 | [SoybeanYield](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) ![GitHub Repo stars](https://img.shields.io/github/stars/saeedkhaki92/CNN-RNN-Yield-Prediction?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/saeedkhaki92/CNN-RNN-Yield-Prediction) | Multimodal soybean yield forecasting dataset: yield, management practices, weather and soil parameters. |
-| [TERRA REF](https://terraref.org) | 1 PB of public domain, high resolution sensor data from sorghum breeding trials. [Data publication](https://doi.org/10.5061/dryad.4b8gtht99), with large files on [Globus](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F) (ncsa#terra-public). |
+| [TERRA REF](https://terraref.org) ([GitHub organisation](https://github.com/terraref)) | 1 PB of public domain, high resolution sensor data from sorghum breeding trials. [Data publication](https://doi.org/10.5061/dryad.4b8gtht99), with large files on [Globus](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F) (ncsa#terra-public). |
 
 ## Data Standardisation, Interoperability and APIs
 
 | Project Name | Description |
 | :--- | :--- |
-| [AgGateway ADAPT Toolkit](https://adaptframework.org) | Open source tools to simplify communication between growers, their machines and their partners. |
+| [AgGateway ADAPT Toolkit](https://adaptframework.org) ([GitHub organisation](https://github.com/AgGateway-ADAPT)) | Open source tools to simplify communication between growers, their machines and their partners. |
 | [Agstack](https://github.com/agstack) | Open source digital infrastructure for the agriculture ecosystem. See [AgStack](#agstack) below for its projects. |
 | [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) ![GitHub Repo stars](https://img.shields.io/github/stars/aWhereAPI/API-Code-Samples?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/aWhereAPI/API-Code-Samples) | aWhere API platform code samples. |
 | [Botanica](https://github.com/Michael-A-Kuykendall/botanica) ![GitHub Repo stars](https://img.shields.io/github/stars/Michael-A-Kuykendall/botanica?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/Michael-A-Kuykendall/botanica) | Rust crate for botanical data management with taxonomic hierarchy, cultivation tracking and Darwin Core compliance. |
 | [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) ![GitHub Repo stars](https://img.shields.io/github/stars/IterisClearAg/ClearAg-API-Examples?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/IterisClearAg/ClearAg-API-Examples) | Code examples using the ClearAg APIs. |
-| [Fiware AgriFood](https://www.fiware.org/community/smart-agrifood/) | Open source data standards and IoT framework for connecting farm systems, part of the larger Fiware.org project. |
+| [Fiware AgriFood](https://www.fiware.org/community/smart-agrifood/) ([Smart Data Models organisation](https://github.com/smart-data-models)) | Open source data standards and IoT framework for connecting farm systems, part of the larger Fiware.org project. |
 | [JDLinkMachineDataAPI-OAuth2-CSharp-Example](https://github.com/JohnDeere/JDLinkMachineDataAPI-OAuth2-CSharp-Example) ![GitHub Repo stars](https://img.shields.io/github/stars/JohnDeere/JDLinkMachineDataAPI-OAuth2-CSharp-Example?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/JohnDeere/JDLinkMachineDataAPI-OAuth2-CSharp-Example) | C# JDLink Machine Data API client example. |
 | [MyJohnDeereAPI-OAuth2-Java-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-Java-Example) ![GitHub Repo stars](https://img.shields.io/github/stars/JohnDeere/MyJohnDeereAPI-OAuth2-Java-Example?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/JohnDeere/MyJohnDeereAPI-OAuth2-Java-Example) | Java MyJohnDeere API client example. |
 | [MyJohnDeereAPI-OAuth2-NodeJS-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-NodeJS-Example) ![GitHub Repo stars](https://img.shields.io/github/stars/JohnDeere/MyJohnDeereAPI-OAuth2-NodeJS-Example?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/JohnDeere/MyJohnDeereAPI-OAuth2-NodeJS-Example) | Node.js MyJohnDeere API client example. |
@@ -189,7 +188,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 | Project Name | Description |
 | :--- | :--- |
-| [QGIS](https://qgis.org) | Free, open source, cross-platform (Linux, Windows, macOS) geographic information system. |
+| [QGIS](https://qgis.org) ([GitHub repository](https://github.com/qgis/QGIS)) ![GitHub Repo stars](https://img.shields.io/github/stars/qgis/QGIS?style=social)<br>![GitHub last commit](https://img.shields.io/github/last-commit/qgis/QGIS) | Free, open source, cross-platform (Linux, Windows, macOS) geographic information system. |
 
 ### Shapefiles
 
